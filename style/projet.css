@@ -1,0 +1,228 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    background-color: #f4f1DE;
+
+}
+
+/*navbar*/
+
+nav{
+    
+    width: 100%;
+    background-color: #E07A5F;
+    text-align: center;
+   
+  
+    
+}
+
+
+
+nav img{
+    
+  
+    width: 10%;
+    background-color: #E07A5F;
+
+}
+
+nav a{
+    color: #072AC8;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+nav a:hover{
+    color: #2A9D8F;
+
+}
+
+/*navbar*/
+
+
+
+/*contient les ligne de fichier telechargeable*/
+.fichierA {
+
+    
+   display: flex;
+   flex-direction: column;
+   margin: auto 0;
+   width: 70%;
+   
+    
+}
+
+/*lien des fichier telechargeable*/
+
+.fichierA a {
+
+    text-decoration: none;
+    color: black;
+}
+
+/*lien des fichier telechargeable*/
+.fichierA a:hover {
+
+  color:#072AC8;
+
+}
+/*images represantant le contenu des fichier telechargeable*/
+.fichierA a img {
+
+    width: 8%;
+}
+
+/*continent l'ensemble des block .fichierA */
+.article {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+
+
+/* titre des pages*/
+h2 {
+
+    background-color: #E07a5f;
+    text-align: center;
+    background-color: #3D405B;
+    color: #F4F1DE;
+
+}
+
+/* l'espace entre chaque div de container*/
+#container div {
+
+    padding: 0.5%;
+}
+
+/*le paragraphe avant avant les div lexique*/
+#infoLangue {
+
+    font-style: italic;
+    font-size: 0.8rem;
+
+}
+
+/* les div de chaque ligne de lexique*/
+.lexique {
+    
+    font-size: 0.9rem;
+    border: 1px black dashed;
+   
+}
+
+/*la grosse lettre devant chaque ligne de lexique*/
+.letter {
+
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* la ligne retour a l'acceuil en bas de page*/
+#retour {
+
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1%;
+}
+
+/*les block avant les doc a telecharger a l'interieur de chaque lettre de theme*/
+.listeFichier {
+    margin: 2% 1%;
+    display: flex;
+    border: 1px black dashed;
+
+}
+
+/*images exemple des doc a telecharger*/
+.imageExemple {
+    
+    margin: auto;
+    
+    }
+
+    
+/* footer */
+
+
+.footer{
+    background: #E07A5F;
+    text-align: center;
+
+    margin-top: 4%;
+}
+
+
+.footer .share{
+    padding: 10px 0;
+    
+}
+
+.footer .share img {
+
+    width: 2%;
+
+}
+
+
+
+
+.footer .share a{
+    height: 10px;
+    width: 5px;
+    font-size: 16px;
+    color: black;
+    border: black;
+    text-decoration: none;
+    margin: 20px;
+    
+}
+
+
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    gap:1rem;
+}
+
+.footer .links a{
+    padding:0 0.52rem;
+    color:#fff;
+    text-decoration: none;
+    border:var(--border);
+    font-size: 2Opx;
+}
+
+.footer .links a:hover{
+    background:var(--main-color);
+}
+
+.footer .credit{
+    font-size: 15px;
+    color:#fff;
+    font-weight: lighter;
+    padding:0.5rem;
+}
+
+.footer .credit span{
+    color: royalblue;
+}
+
+
+
+
+
+
+  
+
